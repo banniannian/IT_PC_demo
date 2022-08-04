@@ -1,0 +1,853 @@
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.fon_col {
+  font-family: OSbanner;
+}
+
+// 背景1
+.banner {
+  width: 100%;
+  height: 540px;
+  background: #f5f5f5;
+  text-align: center;
+  .banner_img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/images/banner/banner_img_02.jpg) no-repeat center center;
+    background-size: cover;
+    img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .banner_p {
+      margin-top: 160px;
+      position: absolute;
+      width: 100%;
+      height: auto;
+      color: #fff;
+      text-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+      text-align: center;
+      h3 {
+        font-size: 5rem;
+      }
+      p {
+        font-size: 1.7rem
+      }
+    }
+  }
+}
+
+// 特色课程
+.course {
+  width: 100%;
+  // height: 540px;
+  background: #ffffff;
+  text-align: center;
+  padding: 4rem 0;
+  .course_box {
+    // width: 100%;
+    // height: 100%;
+    .course_top {
+      margin-bottom: 2rem;
+      h1 {
+        padding: 0 0.2rem;
+        margin: 0;
+        font-size: 4rem;
+        color: #000000;
+      }
+      .course_title {
+        margin: 1rem 0;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        img {
+          width: 35px;
+          height: 100%;
+          margin: 0 1rem;
+        
+        }
+        .line {
+          width: 25%;
+          height: .08rem;
+          background-color: #ccc;
+        } 
+      }
+      h3 {
+        padding: 0 0.2rem;
+        margin: 0;
+        font-size: 1.2rem;
+        color: #808080;
+      }
+    }
+    .course_thu {
+      width: 100%;
+      height: auto;
+      margin: 4rem 0;
+      .th_box {
+        text-align: left;
+        color: #808080;
+        // margin-right: 2rem;
+        margin-bottom: 2rem;
+        img {
+          width: 100%;
+          height: auto;
+        }
+        h4 {
+          margin-top: 1rem;
+        }
+        p {
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+
+// 教学优势
+.nice {
+  width: 100%;
+  // height: 540px;
+  background: #ffffff;
+  text-align: center;
+  padding: 4rem 0;
+  background: url(../assets/images/banner/banner_2_20.jpg) no-repeat center center;
+  background-size: cover;
+  .nice_box {
+    // width: 100%;
+    // height: 100%;
+    .nice_top {
+      margin-bottom: 2rem;
+      h1 {
+        padding: 0 0.2rem;
+        margin: 0;
+        font-size: 4rem;
+        color: #ffffff;
+      }
+      .nice_title {
+        margin: 1rem 0;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        img {
+          width: 35px;
+          height: 100%;
+          margin: 0 1rem;
+        
+        }
+        .line {
+          width: 25%;
+          height: .08rem;
+          background-color: rgb(255, 255, 255);
+        } 
+      }
+      h3 {
+        padding: 0 0.2rem;
+        margin: 0;
+        font-size: 1.2rem;
+        color: #ffffff;
+      }
+    }
+    .nice_thu {
+      width: 100%;
+      height: auto;
+      margin: 4rem 0;
+      .th_box {
+        .th_s {
+          position: relative;
+          transform: rotate(-90deg);
+          width: 100px;
+          height: 185.6px;
+          margin: 50px auto;
+          background-color: #fff;  
+          &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 0;
+            height: 0;
+            right: 100px;
+            border-width: 92.3px 63px;
+            border-style: solid;
+            border-color: transparent #fff transparent transparent;
+          }
+          &:after {
+            content: '';
+            display: block;
+            display: block;
+            position: absolute;
+            width: 0;
+            height: 0;
+            left: 100px;
+            border-width: 92.3px 63px;
+            border-style: solid;
+            border-color: transparent transparent transparent #fff;
+            top:0;
+          }
+          .s_img {
+            position: absolute;
+            transform: rotate(89deg);
+            top: 20px;
+            left: -15px;
+            width: 135%;
+            height: 75%;
+            border-radius: 50%;
+            background-color: #ca0000;
+            z-index: 888888;
+            img {
+              width: 65%;
+              height: 60%;
+              margin-top: 23px;
+            }
+          }
+        }
+        .s_p {
+          display: flex;
+          color: #fff;
+          flex-direction: column;
+          align-items: center;
+          flex-wrap: nowrap;
+          h3 {
+            font-size: 1rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.2rem;
+          }
+          p {
+            margin-top: 0.2rem;
+            margin-bottom: 0.5rem;
+          }
+          a {
+            margin: 0.5rem 0;
+            display: block;
+            width: 200px;
+            height: 50px;
+            border-radius: 5px;
+            color: #fff;
+            background-color: #ca0000;
+            line-height: 50px;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 明星教师
+.foot_thu {
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  padding: 4rem 0;
+  .foot_thu_box {
+    .foot_thu_top {
+      margin-bottom: 2rem;
+      h1 {
+        padding: 0 0.2rem;
+        margin: 0;
+        font-size: 4rem;
+        color: #000000;
+      }
+      .foot_thu_title {
+        margin: 1rem 0;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        img {
+          width: 35px;
+          height: 100%;
+          margin: 0 1rem;
+        }
+        .line {
+          width: 25%;
+          height: .08rem;
+          background-color: #ccc;
+        } 
+      }
+      h3 {
+        padding: 0 0.2rem;
+        margin: 0;
+        font-size: 1.2rem;
+        color: #808080;
+      }
+    }
+    .foot_thu_thu {
+      width: 100%;
+      height: auto;
+      margin: 4rem 0;
+      .th_box {
+        position: relative;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 2rem;
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        img {
+          width: 100%;
+          height: auto;
+          border-bottom: 3px solid #ca0000;
+        }
+        h2 {
+          font-size: 1.3rem;
+          // margin-top: 5rem;
+        }
+        p {
+          line-height: 20px;
+        }
+        .th_ico {
+          background-color: #fff;
+          border-radius: 50px;
+          position: inherit;
+          padding: 3px;
+          top: -30px;
+          height: 60px;
+          width: 60px;
+          .ico_img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50px;
+            background-color: #ca0000;
+            img {
+              margin-top: 10px;
+              width: 65%;
+              height: 65%;
+              border: 0;
+            }
+          }
+        }
+        .font_strip {
+          width: 100%;
+          height: 5px;
+          background-color: #ccc;
+          margin: 1.3333rem 0;
+          .strip_center {
+            margin: 0 auto;
+            width: 25%;
+            height: 5px;
+            background-color: #ca0000;
+          }
+        }
+        ul {
+          display: flex;
+          justify-content: center;
+          flex-wrap: nowrap;
+          flex-direction: row;
+          align-items: center;
+          li {
+            margin: 0 0.2rem;
+            img {
+              border: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 线上报名
+.enroll {
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0;
+  background: url(../assets/images/footer/footer_img_20.jpg) no-repeat center center;
+  background-size: cover;
+  .enroll_box {
+    .enroll_top {
+      margin-bottom: 2rem;
+      h1 {
+        padding: 0 0.2rem;
+        margin: 0;
+        font-size: 4rem;
+        color: #ffffff;
+      }
+      .enroll_title {
+        margin: 1rem 0;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        img {
+          width: 35px;
+          height: 100%;
+          margin: 0 1rem;
+        }
+        .line {
+          width: 25%;
+          height: .08rem;
+          background-color: #ccc;
+        }
+      }
+    }
+  }
+}
+
+// 报名方式
+.enroll_way {
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  padding: 4rem 0;
+  .enroll_way_box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    .way_left {
+      width: 47%;
+      height: auto;
+      text-align: left;
+      color: black;
+      h1 {
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+      }
+      span {
+        color: rgba(69, 69, 69, 0.6);
+      }
+      ol {
+        margin-left: 15px;
+        margin-bottom: 2rem;
+        color: rgba(69, 69, 69, 0.6);
+        li {
+          margin: 0.5rem 0;
+        }
+      }
+      p {
+        color: rgba(69, 69, 69, 0.6);
+        margin: 0.5rem 0;
+      }
+    }
+    .way_right {
+      text-align: left;
+      width: 47%;
+      height: auto;
+      form {
+        margin: 0 auto;
+        width: 260px;
+        ul {
+          li {
+            margin: 2.5rem 0;
+            p {
+              span {
+                width: 70px;
+              }
+              input {
+                height: 30px;
+                outline: none;
+              }
+            }
+            &:nth-child(4) {
+              input {
+                width: 70px;
+              }
+            }
+            &:last-child {
+              margin-left: 73px;
+              input {
+                color: #fff;
+                width: 150px;
+                height: 35px;
+                border: 0;
+                border-radius: 5px;
+                background-color: #ca0000;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 底部信息
+.footer {
+  width: 100%;
+  background: #282828;
+  text-align: center;
+  .footer_box {
+    .footer_text {
+      ul {
+        margin: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        li {
+          margin: 0.3rem;
+          text-align: center;
+          color: #ffffff;
+          a {
+            color: #ffffff;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+          &:after {
+            content: "|";
+            margin-left: 0.8rem;
+            margin-right: 0.5rem;
+          }
+          &:last-child:after {
+            content: "";
+          }
+        }
+      }
+      p {
+        color: #ffffff;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .banner {
+    height: 490px;
+    .banner_img {
+      .banner_p {
+        h3 {
+          font-size: 4rem;
+        }
+        p {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+
+  .nice {
+    .nice_box {
+      .nice_top {
+        h1 {
+          font-size: 3rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
+  .foot_thu {
+    .foot_thu_box {
+      .foot_thu_top {
+        h1 {
+          font-size: 3rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner {
+    height: 450px;
+    .banner_img {
+      .banner_p {
+        h3 {
+          font-size: 3.5rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
+  .nice {
+    .nice_box {
+      .nice_top {
+        h1 {
+          font-size: 2.5rem;
+        }
+        h3 {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  
+  .foot_thu {
+    .foot_thu_box {
+      .foot_thu_top {
+        h1 {
+          font-size: 2.5rem;
+        }
+        h3 {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  
+  .enroll {
+    .enroll_box {
+      .enroll_top {
+        h1 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    height: 420px;
+    .banner_img {
+      .banner_p {
+        h3 {
+          font-size: 3.3rem;
+        }
+        p {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+  .nice {
+    .nice_box {
+      .nice_top {
+        h1 {
+          font-size: 3.5rem;
+        }
+        h3 {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+
+  .foot_thu {
+    .foot_thu_box {
+      .foot_thu_top {
+        h1 {
+          font-size: 3.5rem;
+        }
+        h3 {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+
+  .enroll {
+    .enroll_box {
+      .enroll_top {
+        h1 {
+          font-size: 3.5rem;
+        }
+      }
+    }
+  }
+
+
+  .course {
+    .course_box {
+      .course_top {
+        h1 {
+          font-size: 3.5rem;
+        }
+      }
+      .course_thu {
+        padding: 1rem 3rem ;
+        .th_box {
+          h4 {
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  
+  .enroll_way {
+    .enroll_way_box {
+      flex-direction: column;
+      align-items: center;
+      .way_left {
+        width: 90%;
+      }
+      .way_right {
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    height: 380px;
+    .banner_img {
+      .banner_p {
+        padding: 0 0.3em;
+        h3 {
+          font-size: 2.8rem;
+        }
+        p {
+          font-size: 0.3rem;
+        }
+      }
+    }
+  }
+  
+  .nice {
+    .nice_box {
+      .nice_top {
+        h1 {
+          font-size: 2.8rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
+  .foot_thu {
+    .foot_thu_box {
+      .foot_thu_top {
+        h1 {
+          font-size: 2.8rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
+  .enroll {
+    .enroll_box {
+      .enroll_top {
+        h1 {
+          font-size: 2.8rem;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 535px) {
+  .banner {
+    height: 350px;
+    .banner_img {
+      .banner_p {
+        h3 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner {
+    .banner_img {
+      .banner_p {
+        padding: 0 0.3em;
+        h3 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 0.3rem;
+        }
+      }
+    }
+  }
+  
+  .nice {
+    .nice_box {
+      .nice_top {
+        h1 {
+          font-size: 2rem;
+        }
+        h3 {
+          font-size: 0.3rem;
+        }
+      }
+    }
+  }
+  
+  .foot_thu {
+    .foot_thu_box {
+      .foot_thu_top {
+        h1 {
+          font-size: 2rem;
+        }
+        h3 {
+          font-size: 0.3rem;
+        }
+      }
+    }
+  }
+
+  .enroll {
+    .enroll_box {
+      .enroll_top {
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  .course {
+    .course_box {
+      .course_top {
+        h1 {
+          font-size: 2rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+      }
+      .course_thu {
+        padding: 1rem 1rem ;
+        .th_box {
+          h4 {
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

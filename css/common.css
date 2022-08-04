@@ -1,0 +1,56 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 333;
+}
+.header > nav {
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: #ffffff;
+}
+.header > nav .container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+.header > nav .container div > a {
+  height: auto;
+  line-height: 30px;
+}
+.header > nav .container div > a img {
+  width: 60%;
+}
+.header > nav .container .nav_close_con > button {
+  margin-top: 20px;
+  padding: 15px 10px;
+}
+.header > nav .container .nav_close_con > button span {
+  background-color: #000000;
+}
+.header > nav .container .nav_list {
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+.header > nav .container .nav_list ul {
+  margin-top: 10px;
+}
+.header > nav .container .nav_list ul li a {
+  text-align: center;
+  line-height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 12px;
+  color: #000000;
+  border-bottom: 3px solid rgba(252, 172, 69, 0);
+  transition: all 0.3s;
+  font-weight: 700;
+}
+.header > nav .container .nav_list ul li a:hover {
+  color: red;
+  transition: all 0.3s;
+  border-bottom: 3px solid red;
+}

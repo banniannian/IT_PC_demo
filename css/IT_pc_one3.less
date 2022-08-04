@@ -1,0 +1,685 @@
+
+img {
+  vertical-align: middle;
+}
+
+.fon_col {
+  font-family: OSbanner;
+}
+
+// 背景1
+.banner {
+  width: 100%;
+  height: 540px;
+  background: #f5f5f5;
+  text-align: center;
+  .banner_img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/images/banner/one3_banner.png) no-repeat center center;
+    background-size: cover;
+    img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+// 招聘资讯
+.course {
+  width: 100%;
+  // height: 540px;
+  background: #ffffff;
+  text-align: center;
+  padding: 4rem 0;
+  .course_box {
+    // width: 100%;
+    // height: 100%;
+    .course_top {
+      margin-bottom: 2rem;
+      h1 {
+        padding: 0 0.2rem;
+        margin: 0;
+        font-size: 4rem;
+        color: #000000;
+      }
+      .course_title {
+        margin: 1rem 0;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        img {
+          width: 35px;
+          height: 100%;
+          margin: 0 1rem;
+        
+        }
+        .line {
+          width: 25%;
+          height: .08rem;
+          background-color: #ccc;
+        } 
+      }
+      h3 {
+        padding: 0 0.2rem;
+        margin: 0;
+        font-size: 1.2rem;
+        color: #808080;
+      }
+    }
+    .course_thu {
+      width: 100%;
+      margin: 4rem 0;
+      .thu_left_img {
+        display: flex;
+        padding-left: 0;
+        margin-top: 2.5rem;
+        .th_box {
+          text-align: left;
+          color: #808080;
+          img {
+            float: right;
+          }
+        }
+        .th_img {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+
+          // height: 100%;
+          padding-left: 0;
+          padding-right: 0;
+          .th_img_1 {
+            width: 100%;
+            height: 69%;
+            line-height: 30px;
+          }
+          .th_img_2 {
+            display: flex;
+            align-items: flex-end;
+            // margin-top: 15px;
+            width: 100%;
+            height: 30%;
+            a {
+              text-align: center;
+              color: #fff;
+              width: 115px;
+              height: 45px;
+              line-height: 45px;
+              border: 0;
+              border-radius: 5px;
+              background-color: #ca0000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 图片
+.enroll {
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0;
+  background: url(../assets/images/banner/one3_banner2.png) no-repeat center center;
+  background-size: cover;
+}
+
+// 高薪就业
+.foot_thu {
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  padding: 4rem 0;
+  .foot_thu_box {
+    .foot_thu_top {
+      margin-bottom: 2rem;
+      h1 {
+        padding: 0 0.2rem;
+        margin: 0;
+        font-size: 4rem;
+        color: #000000;
+      }
+      .foot_thu_title {
+        margin: 1rem 0;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        img {
+          width: 35px;
+          height: 100%;
+          margin: 0 1rem;
+        }
+        .line {
+          width: 25%;
+          height: .08rem;
+          background-color: #ccc;
+        }
+      }
+      h3 {
+        padding: 0 0.2rem;
+        margin: 0;
+        font-size: 1.2rem;
+        color: #808080;
+      }
+    }
+    .foot_box_img {
+      display: flex;
+      align-items: center;
+      padding-left: 15px;
+      margin-top: 2.5rem;
+      .foot_box {
+        text-align: left;
+        color: #808080;
+      img {
+        float: right;
+        border: .08rem solid rgb(61, 36, 128);
+        border-radius:100%;
+      }
+    }
+    .foot_img {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+
+      padding-left: 0;
+      padding-right: 0;
+      .foot_img_1 {
+        width: 100%;
+        height: 69%;
+        line-height: 25px;
+        h2 {
+          color: red;
+        }
+      }
+    }
+    }
+  }
+}
+
+// 底部信息
+.footer {
+  width: 100%;
+  background: #282828;
+  text-align: center;
+  .footer_box {
+    .footer_text {
+      ul {
+        margin: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        li {
+          margin: 0.3rem;
+          text-align: center;
+          color: #ffffff;
+          a {
+            color: #ffffff;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+          &:after {
+            content: "|";
+            margin-left: 0.8rem;
+            margin-right: 0.5rem;
+          }
+          &:last-child:after {
+            content: "";
+          }
+        }
+      }
+      p {
+        color: #ffffff;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .banner {
+    height: 490px;
+  }
+
+  .nice {
+    .nice_box {
+      .nice_top {
+        h1 {
+          font-size: 4rem;
+        }
+        h3 {
+          font-size: 1.2rem;
+        }
+      }
+      .nice_honor {
+        .honor_box {
+          ul {
+            li {
+              .honor_time {
+                font-size: 1.1rem;
+              }
+              .honor_ico {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &::after {
+                  top: -10px;
+                  width: 2px;
+                  height: 110px;
+                }
+              }
+              p {
+                text-align: left;
+                font-size: 1.1rem;
+                span {
+                  line-height: 1.2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .foot_thu {
+    .foot_thu_box {
+      .foot_thu_top {
+        h1 {
+          font-size: 4rem;
+        }
+        h3 {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  .course {
+    .course_box {
+      .course_thu {
+        .thu_left_img {
+          .th_img {
+            .th_img_1 {
+              line-height: 25px;
+            }
+            .th_img_2 {
+              a {
+                width: 100px;
+                height: 40px;
+                line-height: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner {
+    height: 450px;
+  }
+  
+  .nice {
+    .nice_box {
+      .nice_top {
+        h1 {
+          font-size: 4rem;
+        }
+        h3 {
+          font-size: 1.2rem;
+        }
+      }
+      .nice_honor {
+        .honor_box {
+          ul {
+            li {
+              .honor_time {
+                font-size: 1.1rem;
+              }
+              .honor_ico {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &::after {
+                  top: -10px;
+                  width: 2px; 
+                  height: 127px;
+                }
+              }
+              p {
+                text-align: left;
+                font-size: 1.1rem;
+                span {
+                  line-height: 1.2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .foot_thu {
+    .foot_thu_box {
+      .foot_thu_top {
+        h1 {
+          font-size: 4rem;
+        }
+        h3 {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  .course {
+    .course_box {
+      .course_thu {
+        .thu_left_img {
+          margin-bottom: 2rem;
+          .th_box {
+            p {
+              font-size: 1.2rem;
+            }
+          }
+          .th_img {
+            .th_img_1 {
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    height: 420px;
+  }
+
+  .nice {
+    .nice_box {
+      .nice_top {
+        h1 {
+          font-size: 3.5rem;
+        }
+        h3 {
+          font-size: 1.2rem;
+        }
+      }
+      .nice_honor {
+        .honor_box {
+          ul {
+            li {
+              flex-direction: column;
+              .honor_time {
+                font-size: 1.2rem;
+                margin-right: 0rem;
+                margin-bottom: 1rem;
+              }
+              .honor_ico {
+                display: none;
+                &::after {
+                  top: -10px;
+                  width: 2px;
+                  height: 110px;
+                }
+              }
+              p {
+                text-align: left;
+                font-size: 1.2rem;
+                span {
+                  line-height: 1.2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .foot_thu {
+    .foot_thu_box {
+      .foot_thu_top {
+        h1 {
+          font-size: 3.5rem;
+        }
+        h3 {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  .course {
+    .course_box {
+      .course_top {
+        h1 {
+          font-size: 3.5rem;
+        }
+      }
+      .course_thu {
+        .thu_left_img {
+          margin-bottom: 2rem;;
+        }
+      }
+    }
+  }
+}
+
+// @media screen and (max-width: 620px) {
+//   // .course {
+//   //   .course_box {
+//   //     .course_thu {
+//   //       .thu_left_img {
+//   //         flex-direction: column;
+//   //         align-items: center;
+//   //         .th_img {
+//   //           .th_img_1 {
+//   //             height: 9rem;
+//   //           }
+//   //           .th_img_2 {
+//   //             height: 9rem;
+//   //           }
+//   //         }
+//   //       }
+//   //     }
+//   //   }
+//   // }
+// }
+
+@media screen and (max-width: 600px) {
+  .nice {
+    .nice_box {
+      .nice_top {
+        h1 {
+          font-size: 2.8rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
+  .foot_thu {
+    .foot_thu_box {
+      .foot_thu_top {
+        h1 {
+          font-size: 2.8rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .course {
+    .course_box {
+      .course_thu {
+        .thu_left_img {
+          .th_img {
+            .th_img_1 {
+              p {
+                font-size:1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .foot_thu {
+    .foot_thu_box {
+      .foot_box_img {
+        .foot_box {
+          // display: flex;
+          // justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .course {
+    .course_box {
+      .course_thu {
+        .thu_left_img {
+          margin-bottom: 2rem;
+          .th_box {
+            p {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .course {
+    .course_box {
+      .course_thu {
+        .thu_left_img {
+          flex-direction: column;
+          align-items: center;
+            padding-left: 15px;
+          .th_box {
+            display: contents;
+            width: 100% !important;
+          }
+          .th_img {
+            text-align: center;
+            .th_img_1 {
+              margin-top: 1rem;
+              p {
+                font-size:1.2rem;
+              }
+            }
+            .th_img_2 {
+              justify-content: center;
+              a {
+                margin-top: 1rem;
+                width: 115px;
+                height: 45px;
+                line-height: 45px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner {
+    .banner_img {
+      .banner_p {
+        padding: 0 0.3em;
+        h3 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
+  .nice {
+    .nice_box {
+      .nice_top {
+        h1 {
+          font-size: 2rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
+  .foot_thu {
+    .foot_thu_box {
+      .foot_thu_top {
+        h1 {
+          font-size: 2rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .course {
+    .course_box {
+      .course_top {
+        h1 {
+          font-size: 2rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+      }
+      .course_thu {
+        .th_box {
+          h4 {
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

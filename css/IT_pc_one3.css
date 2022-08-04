@@ -1,0 +1,448 @@
+img {
+  vertical-align: middle;
+}
+.fon_col {
+  font-family: OSbanner;
+}
+.banner {
+  width: 100%;
+  height: 540px;
+  background: #f5f5f5;
+  text-align: center;
+}
+.banner .banner_img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../assets/images/banner/one3_banner.png) no-repeat center center;
+  background-size: cover;
+}
+.banner .banner_img img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.course {
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  padding: 4rem 0;
+}
+.course .course_box .course_top {
+  margin-bottom: 2rem;
+}
+.course .course_box .course_top h1 {
+  padding: 0 0.2rem;
+  margin: 0;
+  font-size: 4rem;
+  color: #000000;
+}
+.course .course_box .course_top .course_title {
+  margin: 1rem 0;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.course .course_box .course_top .course_title img {
+  width: 35px;
+  height: 100%;
+  margin: 0 1rem;
+}
+.course .course_box .course_top .course_title .line {
+  width: 25%;
+  height: 0.08rem;
+  background-color: #ccc;
+}
+.course .course_box .course_top h3 {
+  padding: 0 0.2rem;
+  margin: 0;
+  font-size: 1.2rem;
+  color: #808080;
+}
+.course .course_box .course_thu {
+  width: 100%;
+  margin: 4rem 0;
+}
+.course .course_box .course_thu .thu_left_img {
+  display: flex;
+  padding-left: 0;
+  margin-top: 2.5rem;
+}
+.course .course_box .course_thu .thu_left_img .th_box {
+  text-align: left;
+  color: #808080;
+}
+.course .course_box .course_thu .thu_left_img .th_box img {
+  float: right;
+}
+.course .course_box .course_thu .thu_left_img .th_img {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-left: 0;
+  padding-right: 0;
+}
+.course .course_box .course_thu .thu_left_img .th_img .th_img_1 {
+  width: 100%;
+  height: 69%;
+  line-height: 30px;
+}
+.course .course_box .course_thu .thu_left_img .th_img .th_img_2 {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 30%;
+}
+.course .course_box .course_thu .thu_left_img .th_img .th_img_2 a {
+  text-align: center;
+  color: #fff;
+  width: 115px;
+  height: 45px;
+  line-height: 45px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #ca0000;
+}
+.enroll {
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0;
+  background: url(../assets/images/banner/one3_banner2.png) no-repeat center center;
+  background-size: cover;
+}
+.foot_thu {
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  padding: 4rem 0;
+}
+.foot_thu .foot_thu_box .foot_thu_top {
+  margin-bottom: 2rem;
+}
+.foot_thu .foot_thu_box .foot_thu_top h1 {
+  padding: 0 0.2rem;
+  margin: 0;
+  font-size: 4rem;
+  color: #000000;
+}
+.foot_thu .foot_thu_box .foot_thu_top .foot_thu_title {
+  margin: 1rem 0;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.foot_thu .foot_thu_box .foot_thu_top .foot_thu_title img {
+  width: 35px;
+  height: 100%;
+  margin: 0 1rem;
+}
+.foot_thu .foot_thu_box .foot_thu_top .foot_thu_title .line {
+  width: 25%;
+  height: 0.08rem;
+  background-color: #ccc;
+}
+.foot_thu .foot_thu_box .foot_thu_top h3 {
+  padding: 0 0.2rem;
+  margin: 0;
+  font-size: 1.2rem;
+  color: #808080;
+}
+.foot_thu .foot_thu_box .foot_box_img {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  margin-top: 2.5rem;
+}
+.foot_thu .foot_thu_box .foot_box_img .foot_box {
+  text-align: left;
+  color: #808080;
+}
+.foot_thu .foot_thu_box .foot_box_img .foot_box img {
+  float: right;
+  border: 0.08rem solid #3d2480;
+  border-radius: 100%;
+}
+.foot_thu .foot_thu_box .foot_box_img .foot_img {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+.foot_thu .foot_thu_box .foot_box_img .foot_img .foot_img_1 {
+  width: 100%;
+  height: 69%;
+  line-height: 25px;
+}
+.foot_thu .foot_thu_box .foot_box_img .foot_img .foot_img_1 h2 {
+  color: red;
+}
+.footer {
+  width: 100%;
+  background: #282828;
+  text-align: center;
+}
+.footer .footer_box .footer_text ul {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer .footer_box .footer_text ul li {
+  margin: 0.3rem;
+  text-align: center;
+  color: #ffffff;
+}
+.footer .footer_box .footer_text ul li a {
+  color: #ffffff;
+}
+.footer .footer_box .footer_text ul li a:hover {
+  text-decoration: none;
+}
+.footer .footer_box .footer_text ul li:after {
+  content: "|";
+  margin-left: 0.8rem;
+  margin-right: 0.5rem;
+}
+.footer .footer_box .footer_text ul li:last-child:after {
+  content: "";
+}
+.footer .footer_box .footer_text p {
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 1200px) {
+  .banner {
+    height: 490px;
+  }
+  .nice .nice_box .nice_top h1 {
+    font-size: 4rem;
+  }
+  .nice .nice_box .nice_top h3 {
+    font-size: 1.2rem;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li .honor_time {
+    font-size: 1.1rem;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li .honor_ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li .honor_ico::after {
+    top: -10px;
+    width: 2px;
+    height: 110px;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li p {
+    text-align: left;
+    font-size: 1.1rem;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li p span {
+    line-height: 1.2rem;
+  }
+  .foot_thu .foot_thu_box .foot_thu_top h1 {
+    font-size: 4rem;
+  }
+  .foot_thu .foot_thu_box .foot_thu_top h3 {
+    font-size: 1.2rem;
+  }
+  .course .course_box .course_thu .thu_left_img .th_img .th_img_1 {
+    line-height: 25px;
+  }
+  .course .course_box .course_thu .thu_left_img .th_img .th_img_2 a {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .banner {
+    height: 450px;
+  }
+  .nice .nice_box .nice_top h1 {
+    font-size: 4rem;
+  }
+  .nice .nice_box .nice_top h3 {
+    font-size: 1.2rem;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li .honor_time {
+    font-size: 1.1rem;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li .honor_ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li .honor_ico::after {
+    top: -10px;
+    width: 2px;
+    height: 127px;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li p {
+    text-align: left;
+    font-size: 1.1rem;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li p span {
+    line-height: 1.2rem;
+  }
+  .foot_thu .foot_thu_box .foot_thu_top h1 {
+    font-size: 4rem;
+  }
+  .foot_thu .foot_thu_box .foot_thu_top h3 {
+    font-size: 1.2rem;
+  }
+  .course .course_box .course_thu .thu_left_img {
+    margin-bottom: 2rem;
+  }
+  .course .course_box .course_thu .thu_left_img .th_box p {
+    font-size: 1.2rem;
+  }
+  .course .course_box .course_thu .thu_left_img .th_img .th_img_1 {
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner {
+    height: 420px;
+  }
+  .nice .nice_box .nice_top h1 {
+    font-size: 3.5rem;
+  }
+  .nice .nice_box .nice_top h3 {
+    font-size: 1.2rem;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li {
+    flex-direction: column;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li .honor_time {
+    font-size: 1.2rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li .honor_ico {
+    display: none;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li .honor_ico::after {
+    top: -10px;
+    width: 2px;
+    height: 110px;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li p {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  .nice .nice_box .nice_honor .honor_box ul li p span {
+    line-height: 1.2rem;
+  }
+  .foot_thu .foot_thu_box .foot_thu_top h1 {
+    font-size: 3.5rem;
+  }
+  .foot_thu .foot_thu_box .foot_thu_top h3 {
+    font-size: 1.2rem;
+  }
+  .course .course_box .course_top h1 {
+    font-size: 3.5rem;
+  }
+  .course .course_box .course_thu .thu_left_img {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nice .nice_box .nice_top h1 {
+    font-size: 2.8rem;
+  }
+  .nice .nice_box .nice_top h3 {
+    font-size: 1rem;
+  }
+  .foot_thu .foot_thu_box .foot_thu_top h1 {
+    font-size: 2.8rem;
+  }
+  .foot_thu .foot_thu_box .foot_thu_top h3 {
+    font-size: 1rem;
+  }
+  .course .course_box .course_thu .thu_left_img .th_img .th_img_1 p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 535px) {
+  .course .course_box .course_thu .thu_left_img {
+    margin-bottom: 2rem;
+  }
+  .course .course_box .course_thu .thu_left_img .th_box p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .course .course_box .course_thu .thu_left_img {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+  }
+  .course .course_box .course_thu .thu_left_img .th_box {
+    display: contents;
+    width: 100% !important;
+  }
+  .course .course_box .course_thu .thu_left_img .th_img {
+    text-align: center;
+  }
+  .course .course_box .course_thu .thu_left_img .th_img .th_img_1 {
+    margin-top: 1rem;
+  }
+  .course .course_box .course_thu .thu_left_img .th_img .th_img_1 p {
+    font-size: 1.2rem;
+  }
+  .course .course_box .course_thu .thu_left_img .th_img .th_img_2 {
+    justify-content: center;
+  }
+  .course .course_box .course_thu .thu_left_img .th_img .th_img_2 a {
+    margin-top: 1rem;
+    width: 115px;
+    height: 45px;
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .banner .banner_img .banner_p {
+    padding: 0 0.3em;
+  }
+  .banner .banner_img .banner_p h3 {
+    font-size: 2rem;
+  }
+  .banner .banner_img .banner_p p {
+    font-size: 1rem;
+  }
+  .nice .nice_box .nice_top h1 {
+    font-size: 2rem;
+  }
+  .nice .nice_box .nice_top h3 {
+    font-size: 1rem;
+  }
+  .foot_thu .foot_thu_box .foot_thu_top h1 {
+    font-size: 2rem;
+  }
+  .foot_thu .foot_thu_box .foot_thu_top h3 {
+    font-size: 1rem;
+  }
+  .course .course_box .course_top h1 {
+    font-size: 2rem;
+  }
+  .course .course_box .course_top h3 {
+    font-size: 1rem;
+  }
+  .course .course_box .course_thu .th_box h4 {
+    margin-top: 1rem;
+  }
+}
